@@ -5,22 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Landing Page</title>
-        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<nav class="nav">
+		<nav class="nav bg-dark main-text">
 			<span id="logo">Header Logo</span>
-			<ul class="links">
+			<ul class="links secondary-text">
 				<li><a href="#information">header link one</a></li>
 				<li><a href="#testimonials">header link two</a></li>
 				<li><a href="#cta">header link three</a></li>
 			</ul>
 		</nav>
 		<main>
-			<section iad="hero">
+			<section id="hero" class="bg-dark">
 				<div class="left-hero">
-					<h1>This website is awesome</h1>
-					<p>
+					<h1 class="main-text">This website is awesome</h1>
+					<p class="secondary-text">
 						This website has some subtext that goes here under the main title.
 						It's a smaller font and the color is lower contrast
 					</p>
@@ -34,7 +34,7 @@
 				</div>
 			</section>
 			<section id="information">
-                <h2 class="information-header">Some random information</h2>
+				<h2 class="information-header">Some random information</h2>
 				<div class="info-element">
 					<img src="" alt="" />
 					<p>this is some subtext under an illustration or image</p>
@@ -61,15 +61,18 @@
 				</blockquote>
 				<span>-Thor, God of Thunder</span>
 			</section>
-            <section id="cta">
-                <div class="cta-sign-up">
-                    <div class="cta-text">
-                    <div>Call to action! It's time!</div>
-                    <div>Sign up for our product by clicking that button right over there!</div>
-                </div>
-                <button class="btn-sign-up">Sign Up</button>
-                </div>
-            </section>
+			<section id="cta">
+				<div class="cta-sign-up">
+					<div class="cta-text">
+						<div>Call to action! It's time!</div>
+						<div>
+							Sign up for our product by clicking that button right over there!
+						</div>
+					</div>
+					<button class="btn-sign-up">Sign Up</button>
+				</div>
+			</section>
+		</main>
 		<footer class="footer">Copyright &copy The Odin Project 2021</footer>
 	</body>
 </html>
