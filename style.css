@@ -144,3 +144,35 @@ li {
 	text-align: right;
 	font-weight: 900;
 }
+
+#cta {
+	padding: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-sign-up {
+	display: flex;
+	color: #f9faf8;
+	background-color: #3882f6;
+	padding: 3rem 5rem;
+	border-radius: 20px;
+}
+
+.btn-sign-up {
+	padding: 0.5rem 1rem;
+	border: 2px solid #f9faf8;
+	outline: none;
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 5px;
+}
+
+.cta-header {
+	font-weight: 900;
+}
+
+.cta-text {
+	margin: 0 2rem;
+}
