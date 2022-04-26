@@ -176,3 +176,9 @@ li {
 .cta-text {
 	margin: 0 2rem;
 }
+
+.footer {
+	text-align: center;
+	padding: 2rem;
+	color: #f9faf8;
+}
