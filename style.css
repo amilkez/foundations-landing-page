@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap");
 
 html {
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-	margin: inherit;
-	padding: inherit;
+	margin: 0;
+	padding: 0;
 	box-sizing: inherit;
 }
 
@@ -82,4 +80,31 @@ li {
 	display: flex;
 	align-items: center;
 	gap: 30px;
+}
+
+#hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	height: 60vh;
+}
+
+.right-hero {
+	text-align: right;
+}
+
+.right-hero img {
+	width: 80%;
+	height: auto;
+}
+
+.btn-hero {
+	background-color: #3882f6;
+	color: white;
+	padding: 0.5rem 1rem;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	margin-top: 10px;
 }
