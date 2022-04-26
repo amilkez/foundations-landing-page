@@ -132,3 +132,15 @@ li {
 	width: 200px;
 	height: 200px;
 }
+
+#testimonials {
+	padding: 5rem 10rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+#testimonials span {
+	display: block;
+	text-align: right;
+	font-weight: 900;
+}
